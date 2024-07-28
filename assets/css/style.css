@@ -1,0 +1,200 @@
+.section1 {
+    background-image: url('../img/burger.jpg');
+    height: 120vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+}
+
+@media (max-width : 576px) {
+    .section1 .carousel-item p {
+        /* width: 100% !important; */
+        margin-left: 0px;
+        position: relative;
+    }
+
+    .section1 .carousel-item button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: block;
+        text-align: center;
+        text-align: center;
+
+    }
+
+    .section1 .carousel-indicators {
+        position: absolute;
+        bottom: 10px;
+        /* Position at the bottom of the carousel */
+        left: 55%;
+        top: 75%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        z-index: 15;
+    }
+
+}
+.section1 .carousel-inner{
+    animation-name: anime;
+    animation-duration: 0.8s;
+    animation-direction: alternate-reverse;
+}
+@keyframes anime {
+   
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+    
+}
+
+
+.section1 .carousel-indicators button {
+    background-color: #fff;
+    border: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.bg-dark {
+    background-color: black;
+    padding: 2px;
+}
+
+section .navbar-collapse .navbar-nav li:hover a {
+    color: #f0ad4e !important;
+}
+
+section div i:hover {
+    color: #f0ad4e !important;
+}
+
+section div button {
+    margin-right: 20px;
+    padding: 0 20px;
+}
+
+section div button:hover {
+    color: bisque;
+}
+
+#carouselExampleIndicators {
+    position: relative;
+}
+
+.carousel-indicators {
+    position: absolute;
+    left: -83%;
+    top: 120%;
+}
+
+.section2 .burger-img {
+    /* margin:13x; */
+    border-radius: 50%;
+    border: 1px solid #f0ad4e;
+    border-width: 9px;
+    /* height: 70%; */
+}
+
+.section2 .pizza-img {
+    border-radius: 50%;
+    border: 1px solid #f0ad4e;
+    border-width: 12px;
+}
+
+@media (max-width: 576px) {
+    .section2 .card {
+        width: 90%;
+        margin: 0 auto;
+        /* Center the card horizontally */
+        position: relative;
+    }
+
+    .section2 .card h5,
+    .section2 .card p,
+    .section2 .card button {
+        text-align: center;
+    }
+
+    .section2 .card button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        position: absolute;
+        top: 87%;
+        left: -2%;
+    }
+}
+
+.thirdsection .mybtn button {
+    margin-left: 23%;
+}
+
+.card .cart {
+    background-color: #e09a39;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.main-div .card {
+    border-radius: 10px 10px 20px 20px;
+    overflow: hidden;
+    /* Ensures content stays within the rounded corners*/
+}
+
+.burger-div .div2 {
+    margin-top: 15%;
+}
+
+@media (max-width: 576px) {
+    .thirdsection a button {
+        margin-left: 0%;
+    }
+}
+
+.section6 .card .card-body {
+    padding: 10px 30px;
+}
+.section6 .img-person {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #e09a39;
+    position: relative;
+    margin-top: 30px;
+ }
+
+.section6 .img-second
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #e09a39;
+    position: relative;
+    margin-top: 30px;
+}
+
+
+ .section7 .icons-div i
+{
+    padding:5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid white;
+    color: rgba(0, 0, 0, 0.763);
+}
+
+
+
